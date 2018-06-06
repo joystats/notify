@@ -1,4 +1,4 @@
-<?php
+<?
 $token="80e4RPmiVsf1m3Zi8JaWzYyoOH1B2sODT4PUI4LoELA";
 $url="https://notify-api.line.me/api/notify";
   
