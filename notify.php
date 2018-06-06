@@ -11,7 +11,7 @@ try{
 		'Content-type: application/x-www-form-urlencoded',
 		'Authorization: Bearer '.$token,
 	]);
-	curl_setopt( $ch, CURLOPT_POSTFIELDS, "messages=". $postData);
+	curl_setopt( $ch, CURLOPT_POSTFIELDS, "message=". $message);
 	curl_setopt( $ch, CURLOPT_POST, true );
 	curl_setopt( $ch, CURLOPT_RETURNTRANSFER, true);
 	curl_setopt( $ch, CURLOPT_SSL_VERIFYPEER, false );
