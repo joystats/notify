@@ -15,10 +15,10 @@ try{
 	curl_setopt( $ch, CURLOPT_POST, true );
 	curl_setopt( $ch, CURLOPT_RETURNTRANSFER, true);
 	curl_setopt( $ch, CURLOPT_SSL_VERIFYPEER, false );
-	$content=curl_exec($ch);
+	$res=curl_exec($ch);
 	curl_close($ch);
 
-	print_r($content);
+	print_r($res);
 
 }catch(Exception $ex){
 	echo $ex;
